@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rozwPytania">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="siema"
+        android:id="@+id/wyswietlzp"
+        android:layout_above="@+id/wpiszOdp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/wpiszOdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="tu wpisz swoja odpowiedz"
+        android:layout_above="@+id/sprawdz"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/sprawdz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sprawdz"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
